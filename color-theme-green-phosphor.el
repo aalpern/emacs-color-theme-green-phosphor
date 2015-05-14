@@ -82,13 +82,31 @@
 
  ;; git-gutter
  '(git-gutter+-added    ((t (:foreground "green4" :background "green4"))))
- '(git-gutter+-modified ((t (:foreground "purple" :background "purple"))))
- '(git-gutter+-deleted  ((t (:foreground "red3" :background "red3"))))
+ '(git-gutter+-modified ((t (:foreground "yellow" :background "yellow"))))
+ '(git-gutter+-deleted  ((t (:foreground "red4" :background "red4"))))
 
  ;; web-mode
  '(web-mode-html-tag-face         ((t (:foreground "green4" :weight bold))))
  '(web-mode-html-tag-bracket-face ((t (:foreground "green4" :weight bold))))
  '(web-mode-html-attr-name-face   ((t (:foreground "lawn green"))))
+
+ ;; js3-mode
+ '(js3-external-variable-face ((t (:foreground "PaleGreen" :weight bold))))
+
+ ;; markdown-mode
+ '(markdown-header-face-1         ((t (:foreground "PaleGreen" :weight bold))))
+ '(markdown-header-face-2         ((t (:foreground "PaleGreen" :weight bold))))
+ '(markdown-header-face-3         ((t (:foreground "PaleGreen" :weight bold))))
+ '(markdown-header-face-4         ((t (:foreground "PaleGreen"))))
+ '(markdown-header-face-5         ((t (:foreground "PaleGreen"))))
+ '(markdown-header-face-6         ((t (:foreground "PaleGreen"))))
+ '(markdown-header-rule-face      ((t (:foreground "PaleGreen" :weight bold))))
+ '(markdown-header-delimiter-face ((t (:foreground "PaleGreen"))))
+ '(markdown-link-face             ((t (:foreground "yellow"))))
+ '(markdown-url-face              ((t (:foreground "#005500"))))
+ '(markdown-list-face             ((t (:foreground "DarkGreen"))))
+ '(markdown-inline-code-face      ((t (:foreground "green" :background "#005500"))))
+
  )
 
 (provide-theme 'green-phosphor)
