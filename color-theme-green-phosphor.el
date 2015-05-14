@@ -43,14 +43,15 @@
 (custom-theme-set-faces
  'green-phosphor
 
- '(default      ((t (:foreground "LimeGreen" :background "#001100" :inherit nil))))
- '(fringe       ((t (:background "#001100"))))
- '(cursor       ((t (:background "red"))))
- '(highlight    ((t (:foreground "black" :background "green"))))
- '(region       ((t (:foreground "black" :background "LimeGreen"))))
- '(button       ((t (:inherit (link)))))
- '(link         ((t (:underline (:color foreground-color :style line) :foreground "green"))))
- '(link-visited ((t (:foreground "green4" :underline (:color foreground-color :style line)))))
+ '(default          ((t (:foreground "LimeGreen" :background "#001100" :inherit nil))))
+ '(fringe           ((t (:background "#001100"))))
+ '(cursor           ((t (:background "red"))))
+ '(highlight        ((t (:foreground "black" :background "green"))))
+ '(region           ((t (:foreground "black" :background "LimeGreen"))))
+ '(button           ((t (:inherit (link)))))
+ '(link             ((t (:underline (:color foreground-color :style line) :foreground "green"))))
+ '(link-visited     ((t (:foreground "green4" :underline (:color foreground-color :style line)))))
+ '(show-paren-match ((t (:foreground "black" :background "green"))))
 
  '(trailing-whitespace ((((class color) (background light)) (:background "DarkGreen"))
                         (((class color) (background dark)) (:background "DarkGreen"))
