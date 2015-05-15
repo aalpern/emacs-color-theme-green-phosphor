@@ -1,4 +1,4 @@
-;;; color-theme-green-phosphor.el --- A light color theme with muted, autumnal colors.
+;;; green-phosphor-theme.el --- A light color theme with muted, autumnal colors.
 ;;;
 ;; Copyright 2015 Adam Alpern
 ;;
@@ -112,4 +112,4 @@
 
 (provide-theme 'green-phosphor)
 
-;;; color-theme-green-phosphor.el ends here
+;;; green-phosphor-theme.el ends here
