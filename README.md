@@ -20,7 +20,7 @@ M-x package-install RET green-phosphor-theme RET
 #### Manually
 
 Alternatively, To use it,
-[download green-phosphor-theme.el](master/green-phosphor-theme.el) to
+[download green-phosphor-theme.el](/green-phosphor-theme.el) to
 a directory in your load-path, then put the following in your Emacs
 configuration file:
 
